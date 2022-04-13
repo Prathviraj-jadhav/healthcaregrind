@@ -7,7 +7,7 @@ function App() {
         <div class="container flex-between">
           <div class="logo">
             <a href="#"><h1>
-                Shoonyatvam
+                healthcaregrid
             </h1>
               <img src="" alt="" />
             </a>
@@ -114,7 +114,7 @@ function App() {
              <div className="feature-details">
                <h3>Values</h3>
                <p>
-               To meet your healthcare needs at an affordable cost
+               Your time is incredibly valuable to us, just as it is to you
  </p>
              </div>
            </div>
@@ -125,8 +125,8 @@ function App() {
    <section className="scene">
      <div className="sun"></div>
      <div className="bg"></div>
-     <img alt="Shoonyatvam" src="./assets/img/health.svg" className="car1"/>
-     <img alt="Shoonyatvam" src="./assets/img/health.svg" className="car2"/>
+     <img alt="healthcaregrid" src="./assets/img/health.svg" className="car1"/>
+     <img alt="healthcaregrid" src="./assets/img/health.svg" className="car2"/>
  </section>
  <script>
      const sun = document.querySelector('.sun');
@@ -140,7 +140,7 @@ function App() {
    <section className="pricing" id="pricing">
      <div className="container">
        <div className="section-header">
-         <h2>Join Shoonyatvam</h2>
+         <h2>Join healthcaregrid</h2>
          <a href="#Pricing-card" className="btn btn-lg">Get Started</a>
        </div>
      </div>
@@ -180,7 +180,7 @@ function App() {
     
 
  </ul>
- <p > ©2022 Shoonyatvam.org | All Rights Reserved </p>
+ <p > ©2022 healthcaregrid.in | All Rights Reserved </p>
 </footer>
 {/* ==============================================================================footer----------------------- */}
 
