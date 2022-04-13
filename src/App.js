@@ -7,7 +7,7 @@ function App() {
         <div class="container flex-between">
           <div class="logo">
             <a href="#"><h1>
-                healthcaregrid
+                Healthcaregrid
             </h1>
               <img src="" alt="" />
             </a>
@@ -33,7 +33,7 @@ function App() {
 {/* ----------------------Landing--------------------------------- */}
    <section className="landing">
      <div className="landing-text">
-                   <h1>More than just A ePharmacy</h1>
+                   <h1>More than just an ePharmacy</h1>
        <p>
        Be a part of the eRevolution       </p>
        <a href="#Shoonytam" className="btn btn-lg">Get Started</a>
@@ -140,7 +140,7 @@ function App() {
    <section className="pricing" id="pricing">
      <div className="container">
        <div className="section-header">
-         <h2>Join healthcaregrid</h2>
+         <h2>Join Healthcaregrid</h2>
          <a href="#Pricing-card" className="btn btn-lg">Get Started</a>
        </div>
      </div>
@@ -180,7 +180,7 @@ function App() {
     
 
  </ul>
- <p > ©2022 healthcaregrid.in | All Rights Reserved </p>
+ <p > ©2022 Healthcaregrid.in | All Rights Reserved </p>
 </footer>
 {/* ==============================================================================footer----------------------- */}
 
