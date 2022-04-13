@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+::-webkit-scrollbar {
+  display: none;
+}
+
+.center, #Shoonytvam {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #F2F2F2;
+}
+
+#Shoonytvam {
+  width: 85%;
+  height: auto;
+}
+#Shoonytvam .card {
+  width: 32%;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.3);
+  float: left;
+  position: relative;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+#Shoonytvam .card:nth-child(2) {
+  margin: 0 2%;
+}
+#Shoonytvam .card:hover .thumb {
+  top: -25%;
+}
+#Shoonytvam .card .thumb {
+  width: 90%;
+  height: 150px;
+  background: #000;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  top: -10%;
+  transform: translateX(-50%);
+  z-index: 10;
+  transition: 0.3s cubic-bezier(0.67, -0.12, 0.45, 1.5);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
+}
+#Shoonytvam .card #one  {
+  background-image: url("/product-cards-list/dist/Img/download\ \(4\).jpg");
+}
+#Shoonytvam .card #two {
+  background-image: url("/product-cards-list/dist/Img/liquid-handwash-500x500.jpg");
+}
+#Shoonytvam .card #three {
+  background-image: url("/product-cards-list/dist/Img/Web_1920________25.png");
+}
+#Shoonytvam .card .option {
+  width: 60%;
+  height: 30px;
+  margin: 90px auto 0 auto;
+}
+#Shoonytvam .card .option i {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 5%;
+  color: #E63D3A;
+  opacity: 0.6;
+  position: relative;
+}
+#Shoonytvam .card .option i:hover {
+  cursor: pointer;
+}
+#Shoonytvam .card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #E63D3A;
+  opacity: 0.6;
+}
+#Shoonytvam .card hr {
+  width: 10%;
+  opacity: 0.5;
+  margin: 10px auto;
+}
+#Shoonytvam .card .price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+#Shoonytvam .card .desc {
+  margin: 15px 0;
+  font-size: 13px;
+  line-height: 20px;
+  opacity: 0.8;
+}
+#Shoonytvam .card .add, #Shoonytvam .card .buy {
+  width: 48%;
+  height: 30px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: 0.3s linear;
+}
+#Shoonytvam .card .add a, #Shoonytvam .card .buy a {
+  line-height: 30px;
+  font-size: 13px;
+  color: #fff;
+}
+#Shoonytvam .card .add {
+  float: left;
+  background: #1dcac2;
+}
+#Shoonytvam .card .add:hover {
+  background: #1dcac2;
+}
+#Shoonytvam .card .buy {
+  float: right;
+  background: #098346;
+}
+#Shoonytvam .card .buy:hover {
+  background: #098346;
+}
+
+@media screen and (max-width: 480px) {
+  #Shoonytvam {
+    top: 10%;
+    transform: translate(-50%, 0);
+  }
+  #Shoonytvam .card {
+    width: 100%;
+  }
+  #Shoonytvam .card:nth-child(2) {
+    margin: 50px 0;
+  }
+  #Shoonytvam .card:nth-child(3) {
+    margin-bottom: 20px;
+  }
+}

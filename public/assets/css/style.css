@@ -15,8 +15,6 @@ body {
   font-weight: 500;
   outline: none;
   background: #000000;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -170,8 +168,7 @@ img {
     padding: 0 33.33333px;
     border-radius: 10px;
     background-color: #9db6cf;
-    transition: 0.3s;
-  
+    transition: height 0.3s;
   }
 }
 
@@ -194,7 +191,7 @@ img {
 }
 
 .header .main-navgation > div {
-  display: flex ;
+  display: flex;
   align-items: center;
   gap: 30px;
 }
@@ -217,19 +214,9 @@ img {
   border-bottom: 1px solid white;
 }
 
-.nav-buttons{
-  padding: 10px 1%;
- 
-  margin-top: 7px;
-}
 .header .nav-buttons .btn {
-  align-self: flex-end;
-}
-.header .nav-buttons .btn {
- 
   color: #fff;
   width: 80%;
- 
 }
 
 @media (max-width: 375px) {
@@ -240,7 +227,7 @@ img {
 
 .header .burger-menu {
   font-size: 22px;
-  color: #fff;
+  color: #9e9aa7;
   cursor: pointer;
   display: none;
 }
@@ -254,12 +241,12 @@ img {
 .main-navgation a {
   font-weight: 700;
   font-size: 14px;
-  color: #fff;
+  color: #9972f5;
   transition: 0.3s;
 }
 
 .main-navgation a:hover {
-  color: #a065ff;
+  color: #e5f503;
 }
 
 @media (max-width: 992px) {
@@ -426,7 +413,7 @@ img {
   width: 100%;
   margin: 30px auto;
   padding: 6px 10px 6px 20px;
-  border-radius: 20px 40px;
+  border-radius: 50px;
 }
 .search-bar form{
   display: flex;
@@ -440,7 +427,7 @@ img {
   background: transparent;
 }
 .search-bar form button{
-  background: #bd6af5;
+  background: #ff5361;
   width:55px;
   height: 55px;
   border-radius: 50%;
@@ -1039,14 +1026,12 @@ img {
   padding: 50px 0;
   background: #000000  no-repeat right;
   background-size: cover;
-  padding-bottom: 80px;
-  row-gap: 60px;
 }
 
 @media (max-width: 500px) {
   .pricing {
     padding: 90px 0;
-    background-image: url();
+    background-image: url(../images/bg-boost-mobile.svg);
   }
 }
 
@@ -1181,7 +1166,7 @@ h4{
     bottom: 0;
     width: 100%;
     height: 280px;
-    background: url(/public/assets/img/bg\ footer.jpeg);
+    background: url(/Shoonytvam/img/bg\ footer.jpeg);
     animation: animateBg 25s linear infinite;
     background-size: 1500px;
     background-repeat: repeat-x;
@@ -1863,7 +1848,7 @@ footer
     position: relative;
     width: 100%;
     background: #3586ff;
-    min-height: 90px;
+    min-height: 100px;
     padding: 15px 30px;
     display: flex;
     justify-content: center;
@@ -1910,7 +1895,7 @@ footer .menu li a
 footer .menu li a:hover
 {
     opacity: 1;
-    color: #b681f3;
+    color: #00ffff;
 }
 footer p
 {
@@ -1919,7 +1904,6 @@ footer p
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 1.1em;
-  
 }
 footer .wave
 {
@@ -1928,7 +1912,7 @@ footer .wave
     left: 0;
     width: 100%;
     height: 100px;
-    background: url(/public/assets/img/wave.png);
+    background: url(/Shoonytvam/img/wave.png);
     background-size: 1000px 100px; 
 }
 footer .wave#wave1
