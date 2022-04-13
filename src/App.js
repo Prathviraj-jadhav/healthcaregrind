@@ -6,7 +6,7 @@ function App() {
    <header class="header">
         <div class="container flex-between">
           <div class="logo">
-            <a href="#"><h1>
+            <a href="https://healthcaregrid.in/"><h1>
                 Healthcaregrid
             </h1>
               <img src="" alt="" />
@@ -173,7 +173,7 @@ function App() {
      </a></li>
  </ul>
  <ul className="menu">
-     <li><a href="#">Home</a></li>
+     <li><a href="https://healthcaregrid.in/">Home</a></li>
      <li><a href="#">About Us</a></li>
      <li><a href="#">Contact us</a></li>
      <li><a href="#">Privacy Poilcy</a></li>
