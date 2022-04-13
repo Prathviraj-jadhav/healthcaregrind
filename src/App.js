@@ -48,7 +48,7 @@ function App() {
 {/* _____________Shoontyvam Bar______________________ */}
     <div className="Shoonytvam">
      <div className="container">
-  <h1>Find Your Near Medical Store for Home Delivery</h1>
+  <h1>Find Your Nearest Pharmacy </h1>
   <div className="search-bar">
       <form>
           <div className="location-input" >
