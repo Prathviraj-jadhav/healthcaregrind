@@ -14,13 +14,13 @@ function App() {
           </div>
           <nav class="main-navgation flex-between flex-ver-top">
             <div class="nav-links">
-              <a href="/Shoonytvam/Product.html">Product</a>
+              <a href="#Shoonytam">Product</a>
               <a href="#pricing">About US</a>
               <a href="#resources">Contact US</a>
             </div>
             <div class="nav-buttons">
-              <a href="/Shoonytvam/Login.html" class="log-in">Login</a>
-              <a href="/Shoonytvam/Login.html#sign-up-form" class="sign-up btn btn-sm">Become Aggregator</a>
+              <a href="#Shoonytam" class="log-in">Login</a>
+              <a href="#Shoonytam" class="sign-up btn btn-sm">Become Aggregator</a>
             </div>
           </nav>
           <div class="burger-menu">
@@ -141,7 +141,7 @@ function App() {
      <div className="container">
        <div className="section-header">
          <h2>Join Healthcaregrid</h2>
-         <a href="#Pricing-card" className="btn btn-lg">Get Started</a>
+         <a href="#Shoonytam" className="btn btn-lg">Get Started</a>
        </div>
      </div>
    </section>
