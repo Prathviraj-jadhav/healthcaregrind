@@ -20,7 +20,7 @@ function App() {
             </div>
             <div class="nav-buttons">
               <a href="#Shoonytam" class="log-in">Login</a>
-              <a href="#Shoonytam" class="sign-up btn btn-sm">Become Aggregator</a>
+              <a href="#Shoonytam" class="sign-up btn btn-sm">Become Seller</a>
             </div>
           </nav>
           <div class="burger-menu">
