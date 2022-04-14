@@ -20,7 +20,7 @@ function App() {
             </div>
             <div class="nav-buttons">
               <a href="#Shoonytam" class="log-in">Login</a>
-              <a href="#Shoonytam" class="sign-up btn btn-sm">Become Seller</a>
+              <a href="#Shoonytam" class="sign-up btn btn-sm"> Seller</a>
             </div>
           </nav>
           <div class="burger-menu">
@@ -28,27 +28,11 @@ function App() {
           </div>
         </div>
       </header>
-     
-       
-{/* ----------------------Landing--------------------------------- */}
-   <section className="landing">
-     <div className="landing-text">
-                   <h1>More than just an ePharmacy</h1>
-       <p>
-       Be a part of the eRevolution       </p>
-       <a href="#Shoonytam" className="btn btn-lg">Get Started</a>
-       <img src="./assets/img/Circles-1-1.svg" />  
-     </div>
-     
-     <div className="landing-image">
-       <img src="./assets/img/op.jpeg" alt="Working Illustration" />
-     </div>
-   </section>
 
-{/* _____________Shoontyvam Bar______________________ */}
+      {/* _____________Shoontyvam Bar______________________ */}
     <div className="Shoonytvam">
      <div className="container">
-  <h1>Find Your Nearest Pharmacy </h1>
+  
   <div className="search-bar">
       <form>
           <div className="location-input" >
@@ -73,6 +57,24 @@ function App() {
   </div>
 </div>
 </div>
+     
+       
+{/* ----------------------Landing--------------------------------- */}
+   <section className="landing">
+     <div className="landing-text">
+                   <h1>More than just an ePharmacy</h1>
+       <p>
+       Be a part of the eRevolution       </p>
+       <a href="#Shoonytam" className="btn btn-lg">Get Started</a>
+       <img src="./assets/img/Circles-1-1.svg" />  
+     </div>
+     
+     <div className="landing-image">
+       <img src="./assets/img/op.jpeg" alt="Working Illustration" />
+     </div>
+   </section>
+
+
   {/* -------------Advanced Feature--------------------------------- */}
 
        <div className="more-features">
