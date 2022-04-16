@@ -29,34 +29,7 @@ function App() {
         </div>
       </header>
 
-      {/* _____________Shoontyvam Bar______________________ */}
-    <div className="Shoonytvam">
-     <div className="container">
-  
-  <div className="search-bar">
-      <form>
-          <div className="location-input" >
-              <label>Location</label>
-              <input type="Location" placeholder="where are you living?" />
-          </div>
-              <div>
-              <label>Pharmacy Name</label>
-              <input type="text" placeholder="Pharmacy Name "/>
-          </div>
-       
-          <div>
-              <label>Delivery Date</label>
-              <input type="Date" placeholder="Add Date"/>
-          </div>
-          <div>
-           <label>Delivery Time</label>
-           <input type="Time" placeholder="Add Time"/>
-           </div>
-          <button type="sumit"><img src="./assets/img/search.png"/></button>
-      </form>
-  </div>
-</div>
-</div>
+     
      
        
 {/* ----------------------Landing--------------------------------- */}
@@ -124,6 +97,8 @@ function App() {
        </div>
 
 
+{/* -----------------------------------------------------------------------. */}
+
    <section className="scene">
      <div className="sun"></div>
      <div className="bg"></div>
@@ -148,6 +123,45 @@ function App() {
      </div>
    </section>
    
+
+
+ {/* _____________Shoontyvam Bar______________________ */}
+
+{/* ____________
+ 
+ <div className="Shoonytvam">
+     <div className="container" hidden>
+  
+  <div className="search-bar">
+      <form>
+          <div className="location-input" >
+              <label>Location</label>
+              <input type="Location" placeholder="where are you living?" />
+          </div>
+              <div>
+              <label>Pharmacy Name</label>
+              <input type="text" placeholder="Pharmacy Name "/>
+          </div>
+       
+          <div>
+              <label>Delivery Date</label>
+              <input type="Date" placeholder="Add Date"/>
+          </div>
+          <div>
+           <label>Delivery Time</label>
+           <input type="Time" placeholder="Add Time"/>
+           </div>
+          <button type="sumit"><img src="./assets/img/search.png"/></button>
+      </form>
+  </div>
+</div>
+</div>
+__________ */}
+
+
+
+
+
 {/* ------------Our Team--------------------- */}
 
 
